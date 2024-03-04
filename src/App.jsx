@@ -1,8 +1,8 @@
 
-import reactLogo from '/react.svg'
-import viteLogo from '/vite.svg'
-import tailwindLogo from '/tailwind.png'
-import MenuSocial from './menuSocial'
+import * as React from "react";
+
+// 1. import `NextUIProvider` component
+import {NextUIProvider} from "@nextui-org/react";
 import Header from './header'
 import Presentacion from './presentacion'
 
@@ -18,7 +18,7 @@ function App() {
       <h1 className=' text-center text-lg mt-4 '>Vite + React + Tailwind</h1> */}
       <Header></Header>
       <Presentacion ></Presentacion>
-      <MenuSocial></MenuSocial>
+      
     </>
   )
 }
