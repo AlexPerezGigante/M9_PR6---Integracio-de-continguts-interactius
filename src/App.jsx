@@ -5,6 +5,7 @@ import * as React from "react";
 import {NextUIProvider} from "@nextui-org/react";
 import Header from './header'
 import Presentacion from './presentacion'
+import AboutMe from "./aboutMe";
 
 function App() {
   
@@ -17,7 +18,8 @@ function App() {
       </div>
       <h1 className=' text-center text-lg mt-4 '>Vite + React + Tailwind</h1> */}
       <Header></Header>
-      <Presentacion ></Presentacion>
+      <Presentacion></Presentacion>
+      <AboutMe></AboutMe>
       
     </>
   )
