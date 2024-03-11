@@ -25,10 +25,6 @@ function MenuSocial(){
             <div className='p-1 py-2 hover:bg-violet-200 transition duration:500 hover:duration-500 rounded-md '>
             <a href="#"><img className=' h-10 p-1 ps-2'src={logoBook} alt="Logo Book" /></a>
             </div>
-            
-            
-            
-            
         </div>
         </>
     )

@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <>
-    <header className=' font-source-sans3 h-24 flex justify-between shadow-2xl '>
+    <header className=' font-source-sans3 h-24 flex justify-between shadow-lg fixed bg-fixed w-[100%] z-50 opacity-100 bg-opacity-100 bg-white'>
         <div className='flex gap-3 ms-11 font-bold'>
         <img src={fotoPerfil} alt="Foto perfil" className=' h-14 pb-2 mt-5' />
         <div className=' justify-start flex gap-3 text-slate-700 tracking-wider mt-8'>

@@ -6,6 +6,7 @@ import {NextUIProvider} from "@nextui-org/react";
 import Header from './header'
 import Presentacion from './presentacion'
 import AboutMe from "./aboutMe";
+import Projects from "./projects";
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       <Header></Header>
       <Presentacion></Presentacion>
       <AboutMe></AboutMe>
+      <Projects></Projects>
       
     </>
   )
