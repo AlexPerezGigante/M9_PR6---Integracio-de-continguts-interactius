@@ -26,15 +26,18 @@ function Header() {
         
         <Dropdown className="min-w-[500px] block sm:hidden  mt-[1.1rem] ps-[-300px] inset-x-0">
       <DropdownTrigger className="block sm:hidden">
-        <Button data-hover="false"  className="bg-white mt-4 block sm:hidden">
-            Open Menu
+        <Button data-hover="false"  className="bg-white mt-4 me-2 block sm:hidden min-w-12">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
         </Button>
         </DropdownTrigger>
         <DropdownMenu className=" block sm:hidden text-right " aria-label="Static Actions">
-          <DropdownItem key="HOME"><a href="" className= ' hover:text-violet-700 hover:transition-all hover:delay-0 transition-colors delay-200 pe-60'>HOME</a></DropdownItem>
-          <DropdownItem key="ABOUT"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200'>ABOUT</a></DropdownItem>
-          <DropdownItem key="PROJECTS"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200'>PROJECTS</a></DropdownItem>
-          <DropdownItem key="CONTACT"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200'>CONTACT</a></DropdownItem>
+          <DropdownItem key="HOME" className=""><a href="" className= ' hover:text-violet-700 hover:transition-all hover:delay-0 transition-colors delay-200 pe-10'>HOME</a></DropdownItem>
+          <DropdownItem key="ABOUT"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>ABOUT</a></DropdownItem>
+          <DropdownItem key="PROJECTS"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>PROJECTS</a></DropdownItem>
+          <DropdownItem key="CONTACT"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>CONTACT</a></DropdownItem>
         </DropdownMenu>
         </Dropdown>
         

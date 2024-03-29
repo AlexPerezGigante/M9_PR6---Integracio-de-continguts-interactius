@@ -19,10 +19,22 @@ export default {
             '100%': { transform: 'translateY(400%) ',
                       opacity: '0'},
 
+          },
+          'bote': {
+            '0%': {transform: 'scale(40%)'},
+            '100%':{transform: 'scale(100%)'}
+          },
+          'quitabote': {
+            '0%': {transform: 'scale(100%)'},
+            '99%':{transform: 'scale(0%)'},
+            '100%':{transform: 'scale(100%)'}
+
           }
         },
         animation:{
-          'raton':'raton 1s ease infinite'
+          'raton':'raton 1s ease infinite',
+          'bote':'bote 0.2s ease-out',
+          'quitabote':'quitabote 1s ease-out'
         }
       },
     },
