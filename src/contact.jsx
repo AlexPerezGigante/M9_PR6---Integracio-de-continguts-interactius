@@ -21,7 +21,7 @@ function Contact(){
 
             <label htmlFor="" className="">Message</label>
             <textarea cols={30} rows={10} className="focus:outline-0 border-2 w-[100%] bg-neutral-200 leading-tight p-4 rounded-md mt-3 resize-none" placeholder='Enter Your Message' />
-            <Button className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-16 ms-[70%] w-56 bg-violet-600 tracking-wider text-base  font-bold text-white'>SUBMIT</Button>
+            <Button data-hover="false" className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-16 ms-[70%] w-56 bg-violet-600 tracking-wider text-base  font-bold text-white'>SUBMIT</Button>
         </form>
         </div>
         </>

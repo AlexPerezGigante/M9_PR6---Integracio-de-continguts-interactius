@@ -10,7 +10,7 @@ export function Project({nombre, parrafo, imagen}){
             <div className=" mt-[4.5rem] text-left w-[470px] ">
                 <h3 className=" text-[1.8rem] font-bold tracking-wide">{nombre}</h3>
                 <p className="text-left text-[1.1rem] mt-8 text-neutral-600 leading-8 ">{parrafo}</p>
-                <Button className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-14  w-48 bg-violet-600 tracking-wider text-base  font-bold text-white'>CASE STUDY</Button>
+                <Button data-hover="false" className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-14  w-48 bg-violet-600 tracking-wider text-base  font-bold text-white'>CASE STUDY</Button>
             </div>
             
         </div>
