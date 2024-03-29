@@ -9,6 +9,7 @@ import AboutMe from "./aboutMe";
 import Projects from "./projects";
 import Contact from "./contact";
 import Footer from "./footer";
+import BotonChat from "./botonChat";
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
       <h1 className=' text-center text-lg mt-4 '>Vite + React + Tailwind</h1> */}
       <Header></Header>
       <Presentacion></Presentacion>
+      <BotonChat/>
       <AboutMe></AboutMe>
       <Projects></Projects>
       <Contact></Contact>

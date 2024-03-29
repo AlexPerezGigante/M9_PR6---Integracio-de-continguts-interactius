@@ -5,7 +5,8 @@ function BotonChat(){
     return (
         <>
             <div>
-            <Button className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-14  w-48 bg-violet-600 tracking-wider text-base  font-bold text-white'>Chat with me {emoji}</Button>
+                <Button className=' rounded-2xl mt-5 h-12  w-44 bg-white tracking-wider text-base shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] '>Chat with me <img className="w-[25px]" src={emoji} alt="Emoji" /></Button>
+                <Button className=' rounded-2xl mt-5 h-12  w-44 bg-gradient-to-r from-[rgb(64, 29, 186)]  to-[rgb(130, 91, 240)] tracking-wider text-base shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] '>Chat with me <img className="w-[25px]" src={emoji} alt="Emoji" /></Button>
             </div>
            
         </>
