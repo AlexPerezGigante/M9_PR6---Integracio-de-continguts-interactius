@@ -8,10 +8,10 @@ function AboutMe(){
         <>
         <div className="mx-auto text-center pt-20 pb-40 bg-slate-50">
             <HeaderSeccion nombre={'ABOUT ME'} parrafo={'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology'}></HeaderSeccion>
-            <div className="flex justify-center gap-32 mt-20">
-                <div className=" w-[800px]">
-                    <h3 className="text-[1.6rem] font-bold tracking-wide me-20 text-black">Get to know me!</h3>
-                    <div className="text-left text-[1.1rem] w-[570px] ms-64 mt-8 text-neutral-600 leading-8">
+            <div className="block lg:flex lg:justify-center gap-20 md:gap-32 mt-20">
+                <div className=" max-w-[800px]">
+                    <h3 className="text-[1.2rem] md:text-[1.6rem] font-bold  tracking-wide me-20 text-black">Get to know me!</h3>
+                    <div className="text-left text-[1.1rem] justify-center  max-w-[570px] ms-2 lg:ms-64 mt-8 text-neutral-600 leading-8">
                         <p className="mb-4">I'm a <strong>Frontend Focused Web Developer </strong> 
                              building and managing the Front-end of Websites 
                             and Web Applications that leads to the success of the overall 

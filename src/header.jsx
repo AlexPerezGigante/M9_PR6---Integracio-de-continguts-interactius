@@ -33,11 +33,11 @@ function Header() {
 
         </Button>
         </DropdownTrigger>
-        <DropdownMenu className=" block sm:hidden text-right " aria-label="Static Actions">
-          <DropdownItem key="HOME" className=""><a href="" className= ' hover:text-violet-700 hover:transition-all hover:delay-0 transition-colors delay-200 pe-10'>HOME</a></DropdownItem>
-          <DropdownItem key="ABOUT"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>ABOUT</a></DropdownItem>
-          <DropdownItem key="PROJECTS"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>PROJECTS</a></DropdownItem>
-          <DropdownItem key="CONTACT"><a href="" className='hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>CONTACT</a></DropdownItem>
+        <DropdownMenu data-hover="false" className=" block sm:hidden text-right font-bold" aria-label="Static Actions">
+          <DropdownItem className="py-4 border-t" data-hover="false" key="HOME"><a href="" className= 'text-[0.8rem] py-4 tracking-widest font-bold hover:text-violet-700 hover:transition-all hover:delay-0 transition-colors delay-200 pe-10'>HOME</a></DropdownItem>
+          <DropdownItem className="py-4 border-t" data-hover="false" key="ABOUT"><a href="" className='text-[0.8rem] tracking-widest font-bold hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>ABOUT</a></DropdownItem>
+          <DropdownItem className="py-4 border-t" data-hover="false" key="PROJECTS"><a href="" className='text-[0.8rem] tracking-widest font-bold hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>PROJECTS</a></DropdownItem>
+          <DropdownItem className="py-4 border-t border-b" data-hover="false" key="CONTACT"><a href="" className='text-[0.8rem] tracking-widest font-bold hover:text-violet-700 hover:transition-all hover:delay-0  transition-colors delay-200 pe-10'>CONTACT</a></DropdownItem>
         </DropdownMenu>
         </Dropdown>
         
