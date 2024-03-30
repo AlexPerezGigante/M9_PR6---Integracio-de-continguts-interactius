@@ -8,10 +8,10 @@ function AboutMe(){
         <>
         <div className="mx-auto text-center pt-20 pb-40 bg-slate-50">
             <HeaderSeccion nombre={'ABOUT ME'} parrafo={'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology'}></HeaderSeccion>
-            <div className="block lg:flex lg:justify-center gap-20 md:gap-32 mt-20">
+            <div className="block lg:flex lg:justify-center gap-20 md:gap-32 mt-20 ms-4 lg:ms-0">
                 <div className=" max-w-[800px]">
-                    <h3 className="text-[1.2rem] md:text-[1.6rem] font-bold  tracking-wide me-20 text-black">Get to know me!</h3>
-                    <div className="text-left text-[1.1rem] justify-center  max-w-[570px] ms-2 lg:ms-64 mt-8 text-neutral-600 leading-8">
+                    <h3 className="text-[1.2rem] md:text-[1.6rem] font-bold text-left ms-3 md:ms-2 lg:text-center tracking-wide me-20 text-black">Get to know me!</h3>
+                    <div className="text-left text-[0.95rem] md:text-[1.1rem] justify-center  max-w-[570px] ms-2 mx-3 xl:mx-0 2xl:ms-64 mt-8 text-neutral-600 leading-8">
                         <p className="mb-4">I'm a <strong>Frontend Focused Web Developer </strong> 
                              building and managing the Front-end of Websites 
                             and Web Applications that leads to the success of the overall 
@@ -27,12 +27,12 @@ function AboutMe(){
                           my skills and experience then don't hesitate to <strong>contact</strong> me.
                         </p>
 
-                        <Button className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-14 w-44 bg-violet-600 tracking-wider text-base  font-bold text-white'>CONTACT</Button>
+                        <Button className='translate-y-1 hover:translate-y-0 rounded-md mt-10 h-12 md:h-14 w-40 md:w-44 bg-violet-600 tracking-wider text-sm md:text-base  font-bold text-white'>CONTACT</Button>
                     </div>
                 </div>
-                <div className=" w-[800px]">
-                    <h3 className="text-[1.6rem] text-left font-bold tracking-wide text-black">My Skills</h3>    
-                    <div className="flex flex-wrap w-[600px] mt-8 me-20">
+                <div className=" max-w-[800px]">
+                    <h3 className="text-[1.2rem] md:text-[1.6rem] font-bold text-left ms-3 md:ms-2 tracking-wide me-20 lg:mt-0 mt-10 text-black">My Skills</h3>    
+                    <div className="flex flex-wrap max-w-[600px] mt-8 me-20">
                     {
                         skills.map((element, index) =>{
                             return(
