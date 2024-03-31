@@ -3,8 +3,8 @@ import {Button, ButtonGroup} from "@nextui-org/button";
 export function Project({nombre, parrafo, imagen}){
 
     return (
-        <div className=" block lg:flex mt-20 gap-10 ">
-            <div className="mx-auto me-0 px-10 lg:px-0 sm:max-w-full lg:max-w-[600px] xl:max-w-[725px] md:ms-[2rem] xl:ms-[20rem]">
+        <div className="mx-auto block lg:flex mt-20 gap-10 ">
+            <div className="mx-auto me-0 px-10 lg:px-0 sm:max-w-full lg:max-w-[600px] xl:max-w-[725px] ">
                 <img src={imagen} alt={nombre} />
             </div>
             <div className="mx-auto px-10 lg:px-0 lg:ms-0 mt-[4.5rem] text-center lg:text-left max-w-full lg:max-w-[470px] ">
